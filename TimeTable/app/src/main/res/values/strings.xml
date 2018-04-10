@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TimeTable</string>
+    <string name="group">0</string>
+    <string name="prep">0</string>
+    <string name="lecturerURL">http://siu.ranepa.ru/mobileapp/rsp/getprep.aspx</string>
+    <string name="dateURL">http://siu.ranepa.ru/mobileapp/rsp/getdates.aspx</string>
+    <string name="error_string">Ничего не найдено. Проверьте правильность ввода данных и наличие интернет соеденения.</string>
+    <string name="timetableURL">http://siu.ranepa.ru/mobileapp/rsp/getrsp.aspx?from=</string>
+</resources>
