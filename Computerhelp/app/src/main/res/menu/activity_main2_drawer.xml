@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_customs"
+
+            android:title="Мои заказы" />
+
+    </group>
+
+    <item android:title="Обратная связь">
+        <menu>
+            <item
+                android:id="@+id/nav_admin"
+
+                android:title="Администратор" />
+
+        </menu>
+    </item>
+
+    <group>
+        <item
+            android:id="@+id/nav_out"
+
+            android:title="Выход" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Computer help</string>
+    <string name="title_activity_log">Repairman</string>
+
+    <string name="title_activity_main">Repairman</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="baseUrl">http://computerhelpapi.000webhostapp.com/Api.php?action=</string>
+    <string name="imageUrl">http://computerhelpapi.000webhostapp.com/</string>
+    <string name="custom_list_tv">Здесь пока ничего нет! Нужно это исправить!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

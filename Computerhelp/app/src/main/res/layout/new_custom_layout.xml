@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_custom_name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Название" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_lv"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/new_custom_add_tye_btn"
+        android:layout_below="@+id/new_custom_name" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сохранить"
+            android:id="@+id/new_custom_save_btn"
+            android:layout_weight="1"
+            android:background="@drawable/shape_btn" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_custom_tel_ed"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:hint="Номер телефона" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить тип работ"
+        android:id="@+id/new_custom_add_tye_btn"
+        android:layout_above="@+id/new_custom_layout_city"
+        android:layout_alignLeft="@+id/new_custom_layout_city"
+        android:layout_alignStart="@+id/new_custom_layout_city"
+        android:background="@drawable/shape_btn"
+        android:layout_marginTop="5dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_custom_layout_city"
+
+        android:layout_alignLeft="@+id/new_custom_tel_ed"
+        android:layout_alignStart="@+id/new_custom_tel_ed"
+        android:layout_above="@+id/adressEd" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/adressEd"
+        android:layout_above="@+id/new_custom_tel_ed"
+        android:layout_centerHorizontal="true"
+        android:hint="Адрес" />
+
+</RelativeLayout>

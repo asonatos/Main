@@ -1,0 +1,301 @@
+<resources>
+    <string name="app_name">Affected Area</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="names">
+        <item>Акролеин</item>
+        <item>Аммиак (под давлением)</item>
+        <item>Аммиак (изотермия)</item>
+        <item>Ацетонитрил</item>
+        <item>Ацетонциангидрин</item>
+        <item>Водород мышьяковистый</item>
+        <item>Водород фтористый</item>
+        <item>Водород хлористый</item>
+        <item>Водород бромистый</item>
+        <item>Водород цианистый</item>
+        <item>Диметиламин</item>
+        <item>Метиламин</item>
+        <item>Метил бромистый</item>
+        <item>Метил хлористый</item>
+        <item>Метилакрилат</item>
+        <item>Метилмеркаптан</item>
+        <item>Нитрид акриловой кислоты</item>
+        <item>Окислы азота</item>
+        <item>Окись этилена</item>
+        <item>Сернистый ангидрид</item>
+        <item>Сероводород</item>
+        <item>Сероуглерод</item>
+        <item>Соляная кислота (концентрированная)</item>
+        <item>Триметиламин</item>
+        <item>Формальдегид</item>
+        <item>Фосген</item>
+        <item>Фтор</item>
+        <item>Фосфор треххлористый</item>
+        <item>Фосфора хлорокись</item>
+        <item>Хлор</item>
+        <item>Хлорпикрин</item>
+        <item>Хлорциан</item>
+        <item>Этиленимин</item>
+        <item>Этиленсульфид</item>
+        <item>Этилмеркаптан</item>
+    </string-array>
+    <string-array name="K1">
+        <item>0</item>
+        <item>0.18</item>
+        <item>0.01</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0.17</item>
+        <item>0</item>
+        <item>0.28</item>
+        <item>0.13</item>
+        <item>0</item>
+        <item>0.06</item>
+        <item>0.13</item>
+        <item>0.04</item>
+        <item>0.125</item>
+        <item>0</item>
+        <item>0.06</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0.05</item>
+        <item>0.11</item>
+        <item>0.27</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0.07</item>
+        <item>0.19</item>
+        <item>0.05</item>
+        <item>0.95</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0.18</item>
+        <item>0</item>
+        <item>0.04</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="K2">
+    <item>0.013</item>
+    <item>0.025</item>
+    <item>0.025</item>
+    <item>0.004</item>
+    <item>0.002</item>
+    <item>0.054</item>
+    <item>0.028</item>
+    <item>0.037</item>
+    <item>0.055</item>
+    <item>0.026</item>
+    <item>0.041</item>
+    <item>0.034</item>
+    <item>0.039</item>
+    <item>0.044</item>
+    <item>0.005</item>
+    <item>0.043</item>
+    <item>0.007</item>
+    <item>0.04</item>
+    <item>0.041</item>
+    <item>0.049</item>
+    <item>0.042</item>
+    <item>0.021</item>
+    <item>0.021</item>
+    <item>0.047</item>
+    <item>0.034</item>
+    <item>0.061</item>
+    <item>0.038</item>
+    <item>0.01</item>
+    <item>0.003</item>
+    <item>0.052</item>
+    <item>0.002</item>
+    <item>0.048</item>
+    <item>0.009</item>
+    <item>0.013</item>
+    <item>0.028</item>
+    </string-array>
+    <string-array name="K3">
+        <item>3</item>
+        <item>0.04</item>
+        <item>0.04</item>
+        <item>0.028</item>
+        <item>0.316</item>
+        <item>3</item>
+        <item>0.15</item>
+        <item>0.3</item>
+        <item>0.25</item>
+        <item>3</item>
+        <item>0.5</item>
+        <item>0.5</item>
+        <item>0.5</item>
+        <item>0.056</item>
+        <item>0.1</item>
+        <item>0.353</item>
+        <item>0.80</item>
+        <item>0.40</item>
+        <item>0.27</item>
+        <item>0.333</item>
+        <item>0.036</item>
+        <item>0.013</item>
+        <item>0.3</item>
+        <item>0.1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>3</item>
+        <item>0.2</item>
+        <item>10</item>
+        <item>1</item>
+        <item>30</item>
+        <item>0.8</item>
+        <item>0.125</item>
+        <item>6</item>
+        <item>0.27</item>
+        <item>0.013</item>
+        <item>0.028</item>
+    </string-array>
+    <string-array name="RoGaz">
+    <item>null</item>
+    <item>0.0008</item>
+    <item>null</item>
+    <item>null</item>
+    <item>null</item>
+    <item>0.0035</item>
+    <item>null</item>
+    <item>0.0016</item>
+    <item>0.0036</item>
+    <item>null</item>
+    <item>0.002</item>
+    <item>0.0014</item>
+    <item>null</item>
+    <item>0.0023</item>
+    <item>null</item>
+    <item>null</item>
+    <item>null</item>
+    <item>null</item>
+    <item>null</item>
+    <item>0.0029</item>
+    <item>0.0015</item>
+    <item>null</item>
+    <item>null</item>
+    <item>null</item>
+    <item>null</item>
+    <item>0.0035</item>
+    <item>0.0017</item>
+    <item>null</item>
+    <item>null</item>
+    <item>0.0032</item>
+    <item>null</item>
+    <item>0.0021</item>
+    <item>null</item>
+    <item>null</item>
+    <item>null</item>
+</string-array>
+    <string-array name="Ro">
+        <item>0.839</item>
+        <item>0.681</item>
+        <item>0.681</item>
+        <item>0.786</item>
+        <item>0.932</item>
+        <item>1.64</item>
+        <item>0.989</item>
+        <item>1.191</item>
+        <item>1.490</item>
+        <item>0.687</item>
+        <item>0.68</item>
+        <item>0.699</item>
+        <item>1.732</item>
+        <item>0.983</item>
+        <item>0.953</item>
+        <item>0.867</item>
+        <item>0.806</item>
+        <item>1.491</item>
+        <item>0.882</item>
+        <item>1.462</item>
+        <item>0.964</item>
+        <item>1.263</item>
+        <item>1.198</item>
+        <item>0.671</item>
+        <item>0.815</item>
+        <item>1.432</item>
+        <item>1.512</item>
+        <item>1.57</item>
+        <item>1.675</item>
+        <item>1.553</item>
+        <item>1.658</item>
+        <item>1.220</item>
+        <item>0.838</item>
+        <item>1.005</item>
+        <item>0.839</item>
+    </string-array>
+    <string-array name="K7">
+        <item>0.1,null;0.2,null;0.4,null;1,null;2.2,null</item>
+        <item>0,0.9;0.3,1;0.6,1;1,1;1.4,1</item>
+        <item>0,0.9;1,1;1,1;1,1;1,1</item>
+        <item>0.02,null;0.1,null;0.3,null;1,null;2.6,null</item>
+        <item>0,null;0,null;0.3,null;1,null;2.6,null</item>
+        <item>0.3,1;0.5,1;0.8,1;1,1;1.2,1</item>
+        <item>0.1,null;0.2,null;0.5,null;1,null;1,null</item>
+        <item>0.4,1;0.6,1;0.8,1;1,1;1.2;1</item>
+        <item>0.3,1;0.5,1;0.8,1;1,1;1.2,1</item>
+        <item>0,null;0,null;0.4,null;1,null;1.3,null</item>
+        <item>0,0.1;0,0.3;0,0.8;1,1;2.5,1</item>
+        <item>0,0.3;0,0.7;0.3,1;1,1;1.8,1</item>
+        <item>0,0.2;0,0.4;0,0.9;1,1;2.3,1</item>
+        <item>0,0.5;0.1,1;0.6,1;1,1;1.5,1</item>
+        <item>0.1,null;0.2,null;0.4,null;1,null;3.1,null</item>
+        <item>0,0.1;0,0.3;0,0.8;1,1;2.4,1</item>
+        <item>0.04,null;0.1,null;0.4,null;1,null;2.4,null</item>
+        <item>0,null;0,null;0.4,null;1,null;1,null</item>
+        <item>0,0.1;0,0.3;0,0.7;1,1;3.2,1</item>
+        <item>0,0.2;0,0.5;0.3,1;1,1;1.7,1</item>
+        <item>0.3,1;0.5,1;0.8,1;1,1;1.2,1</item>
+        <item>0.1,null;0.2,null;0.4,null;1,null;2.1,null</item>
+        <item>0,null;0.1,null;0.3,null;1,null;1.6,null</item>
+        <item>0,0.1;0,0.4;0,0.9;1,1;2.2,1</item>
+        <item>0,0.4;0,1;0.5,1;1,1;1.5,1</item>
+        <item>0,0.1;0,0.3;0,0.7;1,1;2.7,1</item>
+        <item>0.7,1;0.8,1;0.9,1;1,1;1.1,1</item>
+        <item>0.1,null;0.2,null;0.4,null;1,null;2.3,null</item>
+        <item>0.05,null;0.1,null;0.3,null;1,null;2.6,null</item>
+        <item>0,0.9;0.3,1;0.6,1;1,1;1.4,1</item>
+        <item>0.003,null;0.1,null;0.3,null;1,null;2.9,null</item>
+        <item>0,0;0,0;0,0.6;1,1;3.9,1</item>
+        <item>0.05,null;0.1,null;0.4,null;1,null;2.2,null</item>
+        <item>0.05,null;0.1,null;0.4,null;1,null;2.2,null</item>
+        <item>0.1,null;0.2,null;0.5,null;1,null;1.7,null</item>
+    </string-array>
+    <string-array name="K4">
+        <item>1</item>
+        <item>1.33</item>
+        <item>1.67</item>
+        <item>2</item>
+        <item>2.34</item>
+        <item>2.67</item>
+        <item>3</item>
+        <item>3.34</item>
+        <item>3.67</item>
+        <item>4</item>
+        <item>5.68</item>
+    </string-array>
+    <string-array name="AffectedArea">
+        <item>0.38;0.85;1.25;3.16;4.75;9.18;12.53;19.20;29.56;38.13;52.67;65.23;81.91;166;231;288;363;572</item>
+        <item>0.26;0.59;0.84;1.92;2.84;5.35;7.20;10.83;16.44;21.02;28.73;35.35;44.09;87.79;121;150;189;295</item>
+        <item>0.22;0.48;0.68;1.53;2.17;3.99;5.34;7.96;11.94;15.18;20.59;25.21;31.30;61.47;84.50;104;130;202</item>
+        <item>0.19;0.42;0.59;1.33;1.88;3.28;4.36;6.46;9.62;12.18;16.43;20.05;24.8;48.18;65.92;81.17;101;157</item>
+        <item>0.17;0.38;0.53;1.19;1.68;2.91;3.75;5.53;8.19;10.33;13.88;16.89;20.82;40.11;54.67;67.15;83.60;129</item>
+        <item>0.15;0.34;0.48;1.09;1.53;2.66;3.43;4.88;7.20;9.06;12.14;14.79;18.13;34.67;47.09;56.72;71.7;110</item>
+        <item>0.14;0.32;0.45;1;1.42;2.46;3.17;4.49;6.48;8.14;10.87;13.17;16.17;30.73;41.63;50.93;63.16;96.3</item>
+        <item>0.13;0.3;0.42;0.94;1.33;2.3;2.97;4.2;5.92;7.42;9.9;11.98;14.68;27.75;37.49;45.79;56.7;86.2</item>
+        <item>0.12;0.28;0.4;0.88;1.25;2.17;2.8;3.96;5.6;6.86;9.12;11.03;13.5;25.39;34.24;41.76;51.6;78.3</item>
+        <item>0.12;0.26;0.38;0.84;1.19;2.06;2.66;3.76;5.31;6.5;8.5;10.23;12.54;23.49;31.61;38.50;47.53;71.9</item>
+        <item>0.11;0.25;0.36;0.8;1.13;1.96;2.53;3.58;5.06;6.2;8.01;9.61;11.74;21.91;29.44;35.81;44.15;66.62</item>
+        <item>0.11;0.24;0.34;0.76;1.08;1.88;2.42;3.43;4.85;5.94;7.67;9.07;11.06;20.58;27.61;35.55;41.3;62.2</item>
+        <item>0.1;0.23;0.33;0.74;1.04;1.8;2.37;3.29;4.66;5.7;7.37;8.72;10.48;19.45;26.04;31.62;38.9;58.44</item>
+        <item>0.1;0.22;0.32;0.71;1;1.74;2.24;3.17;4.49;5.5;7.1;8.4;10.04;18.46;24.69;29.95;36.81;55.2</item>
+        <item>0.1;0.22;0.31;0.69;0.97;1.68;2.17;3.07;4.34;5.31;6.86;8.11;9.7;17.6;23.5;28.48;34.98;52.37</item>
+        <item>0.01;0.05;0.1;0.5;1;3;5;10;20;30;50;70;100;300;500;700;1000;2000</item>
+    </string-array>
+    <string-array name="V">
+        <item>5;10;16;21</item>
+        <item>6;12;18;24;29;35;41;47;53;59;65;71;76;82;88</item>
+        <item>7;14;21;28</item>
+    </string-array>
+</resources>
